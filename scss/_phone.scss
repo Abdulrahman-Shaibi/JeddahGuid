@@ -1,0 +1,201 @@
+@media screen and(min-width: 320px) and (max-width: 480px) {
+  header {
+    .hero-img {
+      background-position: 65%;
+      background-size: cover;
+
+      .overlay {
+        font-family: $font1;
+        position: absolute;
+        top: 70px;
+        left: 20px;
+        overflow: hidden;
+        line-height: 0.9;
+        color: #fff;
+        h1 {
+          font-size: 4.5rem;
+        }
+        h4 {
+          font-size: 1.3rem;
+          padding-left: 15px;
+        }
+      }
+    }
+  }
+
+  .home-article,
+  .main-features {
+    width: 90%;
+    font-size: 3.5rem;
+    margin: 0 auto;
+    font-family: $font2;
+    span {
+      font-size: 3.2rem;
+    }
+    h6 {
+      font-size: 1.2rem;
+      font-weight: 400;
+      padding: 10px 0px;
+      color: #0099ff;
+      span {
+        font-size: 1.2rem;
+        font-weight: 400;
+        padding-left: 5px;
+      }
+    }
+  }
+
+  .main-container {
+    .container1,
+    .container2,
+    .container3 {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .box1 {
+      margin: 10px;
+      min-width: 90%;
+    }
+    .container2 {
+      p {
+        padding-bottom: 10px;
+      }
+    }
+  }
+
+  /*--------------------------PAGE2----------------------------*/
+
+  #page2 {
+    .banner-img2 {
+      background-position: 42%;
+      height: 60vh;
+      .banner-overlay {
+        font-family: $font1;
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 60px;
+        left: -40px;
+        transform: translateX(200px);
+        color: #fff;
+        font-size: 1rem;
+        line-height: 1.2;
+        h1 {
+          font-size: 2rem;
+          padding-bottom: 10px;
+          font-weight: bolder;
+          font-family: $font2;
+        }
+        p {
+          font-size: 1.5rem;
+        }
+      }
+    }
+
+    .p2-title h1 {
+      width: 90%;
+      font-size: 2.4rem;
+      margin: 0 auto;
+      padding: 100px 0px 60px 0px;
+      font-family: $font2;
+    }
+
+    .p2-showcase {
+      width: 90%;
+      .container1,
+      .container2,
+      .container3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        .card1,
+        .card2,
+        .card3,
+        .card4,
+        .card5,
+        .card6 {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin: 30px 20px;
+          width: 70%;
+          img {
+            padding: 10px 0px;
+          }
+          p {
+            text-align: center;
+            min-width: 70%;
+          }
+        }
+      }
+    }
+  }
+
+  /*--------------------------PAGE3----------------------------*/
+
+  #page3 {
+    .banner-img3 {
+      background-position: 42%;
+      height: 60vh;
+      .banner-overlay {
+        font-family: $font1;
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 60px;
+        left: -40px;
+        transform: translateX(200px);
+        color: #fff;
+        font-size: 1rem;
+        line-height: 1.2;
+        h1 {
+          font-size: 2rem;
+          padding-bottom: 10px;
+          font-weight: bolder;
+          font-family: $font2;
+        }
+        p {
+          font-size: 1.5rem;
+        }
+      }
+    }
+
+    .p3-showcase {
+      width: 90%;
+      .container1,
+      .container2,
+      .container3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        .card1,
+        .card2,
+        .card3,
+        .card4,
+        .card5,
+        .card6 {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin: 30px 20px;
+          width: 70%;
+          img {
+            padding: 10px 0px;
+          }
+          p {
+            text-align: center;
+            min-width: 70%;
+          }
+        }
+      }
+    }
+  }
+}

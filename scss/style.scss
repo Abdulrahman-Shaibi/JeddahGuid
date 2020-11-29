@@ -1,0 +1,199 @@
+$r-color: #975b5b;
+$b-color: #5b8897;
+$btn-color: #0099ff;
+$font1: "Roboto", sans-serif;
+$font2: "Quicksand", sans-serif;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 65.5%;
+}
+
+header {
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-img {
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    background-position: 70%;
+    background-size: cover;
+    background-image: url(/img/Banner1.png);
+    overflow: hidden;
+    display: flex;
+
+    .overlay {
+      font-family: $font1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: absolute;
+      top: 90px;
+      left: 50px;
+      overflow: hidden;
+      line-height: 0.78;
+      color: #fff;
+      h1 {
+        font-size: 18rem;
+      }
+      h4 {
+        font-size: 3rem;
+        padding-left: 65px;
+      }
+    }
+  }
+}
+
+#page1 {
+  min-width: 100%;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 3.5rem;
+}
+.home-article,
+.main-features {
+  width: 50%;
+  font-size: 4rem;
+  margin: 0 auto;
+  font-family: $font2;
+}
+.home-article {
+  line-height: 1;
+  span {
+    font-weight: bolder;
+    font-size: 4rem;
+  }
+  h2 {
+    padding-top: 20px;
+  }
+  h6 {
+    font-size: 1.7rem;
+    font-weight: 100;
+    padding: 8px 0px 0px 20px;
+    span {
+      font-size: 1.7rem;
+      font-weight: 100;
+      padding-left: 70px;
+    }
+  }
+}
+
+.main-features {
+  margin-top: 80px;
+  h1 {
+    font-weight: 500;
+    padding-bottom: 20px;
+  }
+  .main-container {
+    font-size: 7rem;
+    a {
+      background-color: $btn-color;
+      color: #fff;
+      border-radius: 7px;
+      padding: 4px 16px;
+      text-decoration: none;
+      font-size: 1.7rem;
+      font-weight: 200;
+    }
+    #btn2 {
+      border: 1px solid $btn-color;
+      background-color: #fff;
+      color: $btn-color;
+    }
+    .container1 {
+      padding-bottom: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+      .box1 {
+        width: 70%;
+      }
+      .box2 {
+        padding-left: 30px;
+        width: 30%;
+        background-image: url(/img/img1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        clip-path: circle();
+        height: 180px;
+        width: 180px;
+      }
+    }
+
+    .container2 {
+      padding-bottom: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+      .box1 {
+        width: 70%;
+      }
+      .box2 {
+        padding-left: 30px;
+        width: 30%;
+        background-image: url(/img/img2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        clip-path: circle();
+        height: 180px;
+        width: 180px;
+      }
+    }
+
+    .container3 {
+      padding-bottom: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+      .box1 {
+        width: 70%;
+      }
+      .box2 {
+        padding-left: 30px;
+        width: 30%;
+        background-image: url(/img/img3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        clip-path: circle();
+        height: 180px;
+        width: 180px;
+      }
+    }
+  }
+}
+
+@import "page2";
+@import "page3";
+@import "page4";
+@import "footer";
+@import "phone";
+
+// @mixin responsive($breakpoint) {
+//   @if $breakpoint == phone {
+//     @media screen and(min-width: 320px) and (max-width: 480px) {
+//       @content;
+//     }
+//   }
+//   @if $breakpoint == tablet {
+//     @media screen and(min-width: 768px) and (max-width: 1024px) {
+//       @content;
+//     }
+//   }
+//   @if $breakpoint == desktop {
+//     @media screen and(min-width: 1025px) and (max-width: 1280px) {
+//       @content;
+//     }
+//   }
+// }
