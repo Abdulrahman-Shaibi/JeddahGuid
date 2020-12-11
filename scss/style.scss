@@ -9,9 +9,11 @@ $font2: "Quicksand", sans-serif;
   margin: 0;
   box-sizing: border-box;
   font-size: 65.5%;
+}
+html {
   ::selection {
     background-color: $r-color;
-    color: $b-color;
+    color: #fff;
   }
 }
 
